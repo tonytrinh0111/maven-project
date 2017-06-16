@@ -48,6 +48,7 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
       <db:parameterized-query><![CDATA[SELECT * FROM flights]]></db:parameterized-query>
     </db:select>
         <json:object-to-json-transformer doc:name="Object to JSON"/>
+        <set-property propertyName="#['Content-Type']" value="#['application/json']" doc:name="Property"/>
     <jms:outbound-endpoint connector-ref="activeMQ" queue="flights" doc:name="JMS"/>
   </flow>
 
