@@ -75,8 +75,8 @@
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>3.8.0</muleVersion>
-					<username>tonytrinh0111</username>
-					<password>Utpbis@123</password>
+					<username>trinhtuanduong2</username>
+					<password>Utpbis123</password>
 					<workerType>Micro</workerType>
 					<redeploy>true</redeploy>
 					<environment>Production</environment>
